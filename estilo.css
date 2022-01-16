@@ -167,7 +167,6 @@ p{
     display: flex;
     margin: 100px auto 0 auto;
     justify-content: center;
-    background-color: rgba(211, 211, 211, 0.719);
 }
 .comentarios{
     width: 450px;
@@ -282,6 +281,7 @@ p{
     border-radius: 10px;
     padding: 2rem 2rem;
     width: 270px;
+    position: relative;
 }
 .plano > span{
     display: block;
@@ -290,33 +290,13 @@ p{
     text-align: center;
     font-weight: bolder;
 }
-.plano > h2{
-    display: block;
-    padding-bottom: 10px;
-    text-align: center;
-    font-weight: 500;
-    font-size: 30px;
-    line-height: 30px;
-}
+
 .planimg{
     display: block;
     margin: auto;
     padding-bottom: 30px;
 }
-.plano > button{
-    display: block;
-    margin: 0 auto;
-    padding: 10px 70px;
-    background-color: transparent;
-    border: 2px solid red;
-    border-radius: 30px;
-    color: red;
-    transition: all .2s;
-}
-.plano > button:hover{
-    background-color: red;
-    color: #fff;
-}
+
 #blocos > div > h2 > a {
     color: rgba(122, 115, 115, 0.699);
 }
@@ -327,6 +307,7 @@ p{
         padding: 0 0 20px 0;
         margin: 0;
         justify-content: left;
+        margin-bottom: 100px;
 }
 .plano ul img{
       padding: 5px;
@@ -605,4 +586,40 @@ footer{
      #fixo{
          font-size: 15px;
      }
+}
+
+
+
+
+.wrapper-purchase {
+    position: absolute;
+    bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.wrapper-purchase > h2{
+    display: block;
+    padding-bottom: 10px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 30px;
+}
+.wrapper-purchase > button{
+    display: block;
+    margin: 0 auto;
+    padding: 10px 70px;
+    background-color: transparent;
+    border: 2px solid red;
+    border-radius: 30px;
+    color: red;
+    transition: all .2s;
+}
+
+.wrapper-purchase > button:hover{
+    background-color: red;
+    color: #fff;
 }
